@@ -1,0 +1,86 @@
+.home-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 38rem;
+  background-color: #466a9b;
+  border-radius: 6px;
+  margin: 50px auto;
+  padding-top: 50px;
+}
+
+.title {
+  font-style: italic;
+}
+
+.intro {
+  margin: 30px auto;
+}
+
+.choices {
+  font-size: medium;
+}
+
+.accordion,
+.accordion-item,
+.accordion-collapse {
+  display: block;
+  background-color: #466a9b;
+  color: #ffffff;
+  border-radius: 6px;
+  border-color: #ffffff;
+  text-align: center;
+  margin: 0 40px;
+}
+.accordion-button::after {
+  width: 0px;
+}
+
+.accordion-button,
+.accordion-button.collapsed,
+.accordion-button:not(.collapsed),
+.accordion-button:focus:not(:focus-visible),
+.accordion-header {
+  background-color: #466a9b;
+  color: #ffffff;
+  border-radius: 6px;
+  border-color: #ffffff;
+  display: block;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.accordion-header {
+  padding: 0;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.03rem white;
+}
+
+.begin-game {
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 6px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .home-card {
+    width: 22rem;
+    margin: 10px auto;
+  }
+  .intro {
+    margin: 20px auto;
+  }
+
+  .accordion,
+  .accordion-item,
+  .accordion-collapse {
+    margin: 0 10px;
+  }
+}

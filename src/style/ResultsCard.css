@@ -1,0 +1,30 @@
+.results-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 38rem;
+  max-height: 100vh;
+  background-color: #466a9b;
+  border-radius: 6px;
+  margin: 50px auto;
+  padding: 10px 20px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+div.card-title.h5 {
+  margin-top: 10px;
+}
+
+.results {
+  font-size: medium;
+  height: 70vh;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .results-card {
+    width: 22rem;
+    margin: 10px auto;
+  }
+}
