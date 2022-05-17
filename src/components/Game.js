@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useFetchQuestionsQuery } from "../redux/questionsApiSlice";
 import { useSelector, useDispatch } from "react-redux";
@@ -14,10 +14,16 @@ const Game = () => {
   //set of questions for round using redux query hook
   const {
     data = [],
+    refetch,
     isFetching,
     isSuccess,
     isError,
   } = useFetchQuestionsQuery({ difficulty, amount });
+  //clear out old questions and fetch new ones
+  useEffect(() => {
+    refetch();
+  }, [refetch]);
+  //set questions in array variable
   const questions = data.results;
   //question currently on screen
   const [currentQuestion, setCurrentQuestion] = useState(0);

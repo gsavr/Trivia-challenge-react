@@ -12,7 +12,7 @@ const ResultsCard = (props) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  //when play again button is pressed - cleaer out redux answers store and navigate to home page
+  //when play again button is pressed - clear out redux answers store and navigate to home page
   const playAgain = () => {
     dispatch(answersClear());
     navigate("/");
