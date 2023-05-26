@@ -1,4 +1,24 @@
-# Getting Started with TRIVIA CHALLENGE App
+# Trivia Challenge
+
+## Preview
+
+You may find a deployed version of this app here: [Live Site](https://trivia-challenge-react.netlify.app/)
+
+<p></P>
+
+<img src="./src/images/demo.gif" width="400">
+
+## App technologies
+
+This app was built using:
+
+- React v18
+- React-router-dom v6
+- Redux
+- Redux Toolkit
+- he (html decoding in jsx)
+
+## Getting Started with TRIVIA CHALLENGE App
 
 Download zip fle or clone from repo.
 
@@ -22,17 +42,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 The app is ready to be deployed!
-
-## App technologies
-
-This app was built using:
-
-- React v18
-- React-router-dom v6
-- Redux
-- Redux Toolkit
-- he (html decoding in jsx)
-
-### Deployment
-
-You may find a deployed version of this app here: [https://afternoon-mesa-81480.herokuapp.com](https://afternoon-mesa-81480.herokuapp.com)
