@@ -6,7 +6,7 @@ import github from "../images/github.png";
 export const Footer = () => {
   return (
     <>
-      <div className="fixed-bottom d-flex flex-row w-100 justify-content-between align-items-end">
+      <div className="fixed-bottom footer-position d-flex flex-row w-100 justify-content-between align-items-end">
         <div className=" footer footer-left">&copy; Giorgio Savron</div>
         <div className=" footer footer-right">
           <div>
