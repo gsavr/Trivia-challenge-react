@@ -29,7 +29,7 @@ export const Footer = () => {
           </div>
           <div>
             <a
-              href="https://github.com/gsavr/g2i-React"
+              href="https://github.com/gsavr/Trivia-challenge-react.git"
               target="_blank"
               rel="noreferrer"
             >
