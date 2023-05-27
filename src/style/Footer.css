@@ -23,6 +23,7 @@
     flex-direction: row;
   }
   .footer-position {
-    position: fixed;
+    position: sticky;
+    bottom: 0;
   }
 }
